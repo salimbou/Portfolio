@@ -1,0 +1,146 @@
+
+
+.bg {
+    background-color: #0E0F19;
+    padding: 20px 0;
+}
+.link {
+    color: white !important;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-right: 40px;
+}
+.link:hover{
+    color: #F7B940 !important;
+}
+.started {
+    font-size: 24px;
+    padding: 12px 24px;
+    background-color: #F7B940;
+}
+
+/* cover sectino */
+.cover {
+    background-color: #0E0F19;
+    padding: 90px 0;
+}
+.cover-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.subtitle {
+    font-weight: 600;
+}
+.title {
+    font-size: 48px;
+    font-weight: 600;
+}
+.descriptino {
+    font-size: 18px;
+    font-weight: 600;
+}
+.link-cover{
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: 48px;
+    text-decoration: none;
+    border-bottom: 1px solid #F7B940;
+    padding-bottom: 4px;
+}
+
+/* About Section */
+.about{
+    background-color: #1a1f22;
+    padding: 90px 0;
+}
+.about-subtitle{
+    font-size: 28px;
+    font-weight: 600;
+}
+.about-title {
+    font-size: 48px;
+    font-weight: 400;
+    margin-top: 32px;
+}
+
+.about-description{
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 16px;
+    color: white !important;
+}
+
+/* Skills section */
+.skills {
+    background-color: #102a3c;
+    padding : 50px 0;
+}
+.section-subtitle {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.section-title{
+    font-size: 32px;
+    font-weight: 400;
+}
+.progress-title{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* Services section */
+.services{
+    background-color: #1a1f22;
+    padding: 90px 0;
+}
+.services .service-item{
+    transition: 0.4s;
+}
+.services .service-item:hover {
+    background-color: #F7B940;
+}
+@media (max-width:620px){
+    .service-item{
+        border: none !important;
+    }
+}
+
+/* counter section */
+.counter {
+    background-color: #102a3c;
+    padding: 60px 0px
+}
+.counter-number{
+    font-size: 72px;
+    font-weight: 600;
+    padding: 12px 0px 0px;
+}
+.counter-text{
+    font-size: 22px;
+    font-weight: 400;
+}
+
+/* Portfolio Section */
+.portfolio{
+    background-color: #1a1f22;
+    padding: 80px 0;
+}
+
+/* Contact Section */
+.contact{
+    background-color: #102a3c;
+    padding: 80px 0;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #1a1f22;
+    padding: 30px 0 10px;
+}
+.footer p{
+    font-size: 24px;
+    font-weight: 400;
+}
